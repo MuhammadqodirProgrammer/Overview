@@ -3,7 +3,6 @@ import './Tasks.scss';
 import { useState } from 'react';
 const Tasks = () => {
   const statusContent = useRef();
-  const taskList = useRef();
   const taskInput = useRef();
   const [tasks, setTasks] = useState([
     {
