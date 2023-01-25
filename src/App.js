@@ -1,12 +1,10 @@
-
-import "./app.scss"
-
+import Tasks from "./components/Tasks/Tasks";
 function App() {
   return (
-    <div className="App">
-
-
-
+    <div className='App'>
+      <>
+        <Tasks/>
+      </>
     </div>
   );
 }
